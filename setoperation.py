@@ -1,0 +1,10 @@
+fruits={"apple","cheery","watermelon","pineapple"}
+print(fruits)
+fruits.add("banana")
+print(fruits)
+fruits.update(["dragon fruit","strawberry"])
+print(fruits)
+fruits.remove("apple")
+print(fruits)
+fruits.discard("berry")
+print(fruits)

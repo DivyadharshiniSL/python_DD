@@ -1,0 +1,10 @@
+a={2,5,6,7}
+b={2,5,3,4,6,7}
+c={8,9}
+print(a|b)
+print(a&b)
+print(a-b)
+print(a^b)
+print(a.issubset(b))
+print(b.issuperset(a))
+print(a.isdisjoint(c))

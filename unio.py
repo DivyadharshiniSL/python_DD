@@ -1,0 +1,5 @@
+a={1,2,3,4,5}
+b={1,5,7}
+print(a|b)
+print(a^b)
+print(a-b)

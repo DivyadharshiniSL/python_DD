@@ -1,0 +1,23 @@
+items=["eyeliner","soap","dish washer","rice","shampoo","note","sugar","dark chocolate"]
+items2=["cotton","ghee"]
+print(items)
+print(items[0])
+print(items[7])
+print(items[1:7])
+print(items[0:3])
+print(items[-1:-3:-1])
+items.append("pineapple")
+print(items)
+items.insert(0,"perfume")
+print(items)
+items.remove("note")
+print(items)
+items.pop(1)
+print(items)
+items.extend(items2)
+print(items)
+add=items+items2
+print(add)
+print(items2*3)
+print("ghee"in items2)
+print("note"not in items2)
